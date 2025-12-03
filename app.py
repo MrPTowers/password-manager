@@ -84,6 +84,7 @@ def main():
                 print(f"Password for {site}: {decrypted_pwd}")
             except:
                 print("Wrong master password or corrupted data.")
+				running = False
 
         elif choice == "3":
             running = False
